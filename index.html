@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monter Hunter - Wiki</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Monster Wiki</h1>
+    <!-- Carousel de Imagens -->
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="/imagens/bazelgeuse.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Bazelgeuse</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/imagens/Deviljho.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Deviljho</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/imagens/kulu-ya-ku.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Kulu-ya-ku</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button  type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button  type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button  type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <!-- Layout com Grid -->
+
+    <div class="container">
+        <h2>Monster info</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="/imagens/bazelgeuse.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Curiosidades Bazelgeuse</h4>
+                        <p class="card-text">
+                            Serpe Alada que viaja pelo mundo em busca de presas. Espalha escamas explosivas por uma área ampla e devora o que for pego na explosão. Quando está em um estado de fúria e planando, itens como as Bombas de Lampejo são ineficazes. Quebre suas partes e traga-o para o chão antes que seja tarde!
+                        </p>
+                        <a href="#" class="btn btn-primary">Fraquezas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="/imagens/Deviljho.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Curiosidades Deviljho</h4>
+                        <p class="card-text">
+                            Sendo um Brute Wyvern, Deviljho possui uma mandíbula protuberante, usada para agarrar e morder suas vítimas. Suas pernas, grandes e fortes, se tornam predominantes ao compara-las com seus braços, atrofiados e inúteis por desuso.
+                        </p>
+                        <a href="#" class="btn btn-primary">Fraquezas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="/imagens/kulu-ya-ku.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Curiosidades Kulu-ya-ku</h4>
+                        <p class="card-text">
+                            Serpássaro estranho que desenvolveu membros capazes de carregar armas, Kulu-Ya-Ku tem o formato de seu corpo similar ao de outros Serpássaros predadores, assim como o Velocidrome. Este monstro é coberto de escamas marrons claras e possui um rosto parecido com o de um dodô. Apesar de ser majoritariamente coberto de escamas, ele também possui penas em sua cabeça e seus braços.
+                        </p>
+                        <a href="#" class="btn btn-primary">Fraquezas</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
